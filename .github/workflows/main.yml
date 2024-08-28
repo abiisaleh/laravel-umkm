@@ -13,5 +13,5 @@ jobs:
         with:
           server: 154.41.240.56
           server-dir: umkm/
-          username: u379276371.hugo
+          username: u379276371.nila
           password: ${{ secrets.ftp_password }}

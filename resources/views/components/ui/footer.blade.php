@@ -18,21 +18,22 @@
     ];
 @endphp
 
-<footer class="bg-gray-900 h-screen">
+<footer class="bg-gray-900 min-h-screen md:h-screen">
     {{-- Google Maps --}}
-    <iframe class="w-full h-1/2"
+    <iframe class="w-full md:h-1/2 h-80"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.424830731581!2d106.87076773576088!3d-6.908573574290898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6837c32f387075%3A0x5c9d3a3e6dd4901c!2sGOR%20Kamojan%20Cibolang!5e0!3m2!1sid!2sid!4v1722389069457!5m2!1sid!2sid"
         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="grid md:grid-cols-4">
-            <div class="mb-0">
+            <div class="mb-4 md:mb-0">
                 <a href="https://flowbite.com/" class="flex items-center">
                     <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
                     <span
                         class="self-center text-2xl font-semibold whitespace-nowrap text-white">{{ config('app.name') }}</span>
                 </a>
             </div>
+
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 col-span-3">
                 <div class="col-span-full sm:col-auto">
                     <x-ui.footer-link name="Address">
@@ -50,6 +51,7 @@
                         </li>
                     </ul>
                 </x-ui.footer-link>
+
                 <x-ui.footer-link name="Working Hours">
                     <ul>
                         <li class=" cursor-pointer hover:text-gray-400">

@@ -10,7 +10,7 @@
             @foreach ($images as $key => $url)
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="{{ $key == 1 ? 'active' : '' }}">
                     <img src="{{ $url }}"
-                        class="absolute block max-w-full h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        class="absolute block w-full md:h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt="">
                 </div>
             @endforeach

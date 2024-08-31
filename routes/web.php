@@ -30,3 +30,7 @@ Route::get('/', function () {
 
     return view('home', $content);
 });
+
+Route::get('/post/{post:slug}', function (Post $post) {
+    return view('blog', ['post' => $post]);
+});

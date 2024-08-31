@@ -24,7 +24,16 @@
             <x-blogs :$posts />
         </article>
         <section id="contact">
-            <x-ui.footer />
+            <footer class="min-h-screen md:h-screen">
+                {{-- Google Maps --}}
+                <iframe class="w-full md:h-1/2 h-80"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.377232107178!2d106.8981194!3d-6.8453002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6835a5f2c723c3%3A0x5c800931b8cda589!2sSDN%20KUBANG%20CARINGIN!5e0!3m2!1sid!2sid!4v1724924527385!5m2!1sid!2sid"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+                <x-ui.footer />
+
+            </footer>
         </section>
     </main>
 

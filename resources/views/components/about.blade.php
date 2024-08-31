@@ -16,11 +16,11 @@
         </div>
 
         <div
-            class="bg-[url('http://localhost:8000/img/blog/jualan.jpg')] bg-cover bg-center aspect-[3/3.5] grid place-content-center text-center">
+            class="bg-[url('{{ env(`app_url`) }}/img/blog/jualan.jpg')] bg-cover bg-center aspect-[3/3.5] grid place-content-center text-center">
         </div>
 
         <div
-            class="bg-[url('http://localhost:8000/img/blog/pembeli.jpg')] bg-cover bg-center aspect-[3/3.5] grid place-content-center text-center">
+            class="bg-[url('{{ env(`app_url`) }}/img/blog/pembeli.jpg')] bg-cover bg-center aspect-[3/3.5] grid place-content-center text-center">
         </div>
 
         <div class="bg-indigo-600 aspect-[3/3.5] grid place-content-center text-center">
@@ -29,7 +29,7 @@
         </div>
 
         <div
-            class="bg-[url('http://localhost:8000/img/blog/team.jpg')] bg-cover bg-center aspect-[3/3.5] grid place-content-center text-center order-last md:order-none">
+            class="bg-[url('{{ env(`app_url`) }}/img/blog/team.jpg')] bg-cover bg-center aspect-[3/3.5] grid place-content-center text-center order-last md:order-none">
         </div>
 
         <div class="bg-indigo-600 aspect-[3/3.5] grid place-content-center text-center">

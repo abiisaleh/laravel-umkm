@@ -1,5 +1,5 @@
 <section id="team" class="flex bg-gray-100 px-4 md:px-0">
-    <div class="grid md:grid-cols-2 place-items-center gap-4 max-w-screen-lg mx-auto my-16 space-x-10">
+    <div class="grid md:grid-cols-2 place-items-center gap-4 max-w-screen-lg mx-auto my-16 md:space-x-10">
         <img src="img/team with penyek.jpg" alt="">
         <div>
             <h2 class="mb-4 text-2xl font-extrabold !leading-tight tracking-tight text-gray-900 md:text-4xl">Kenalan dulu

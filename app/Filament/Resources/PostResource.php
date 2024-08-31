@@ -24,18 +24,24 @@ class PostResource extends Resource
         return $form
             ->schema([
 
+
                 Forms\Components\TextInput::make('title')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\Select::make('category_id')
                     ->required()
                     ->relationship('category', 'name'),
-                Forms\Components\Textarea::make('content')
+
+                Forms\Components\MarkdownEditor::make('content')
                     ->required()
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('image')
+                    ->imageCropAspectRatio('16:9')
+                    ->imageEditor()
+                    ->imageEditorAspectRatios(['16:9'])
                     ->columnSpanFull()
                     ->image(),
+
                 Forms\Components\DatePicker::make('published_at'),
 
             ]);

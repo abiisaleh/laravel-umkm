@@ -4,7 +4,7 @@
         'Home' => '/#',
         'About' => '/#about',
         'Products' => '/#products',
-        'Blog' => '/blog',
+        'Blog' => '/#blog',
         'Contact' => '/#contact',
     ];
 @endphp

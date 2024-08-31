@@ -21,6 +21,7 @@
             <x-about />
             <x-products />
             <x-team />
+            <x-blogs :$posts />
         </article>
         <section id="contact">
             <x-ui.footer />

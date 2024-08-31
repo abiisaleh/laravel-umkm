@@ -56,7 +56,7 @@
                     <ul>
                         <li class=" cursor-pointer hover:text-gray-400">
                             @svg('bi-clock', 'inline-block me-2 mb-1')
-                            5.30am - 9am
+                            06.00 - 12.00 WIB
                         </li>
                         <li class=" cursor-pointer hover:text-gray-400">
                             @svg('bi-calendar3', 'inline-block me-2 mb-1')

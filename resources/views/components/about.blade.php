@@ -11,7 +11,7 @@
         </div>
 
         <div class="bg-white aspect-[3/3.5] grid place-content-center text-center">
-            <p class="text-6xl text-indigo-600 mb-4 ">8</p>
+            <p class="md:text-6xl text-4xl text-indigo-600 mb-4 ">8</p>
             <p>TAHUN</p>
         </div>
 
@@ -24,7 +24,7 @@
         </div>
 
         <div class="bg-indigo-600 aspect-[3/3.5] grid place-content-center text-center">
-            <p class="text-white text-6xl mb-4">1000+</p>
+            <p class="text-white md:text-6xl text-4xl mb-4">1000+</p>
             <p class="text-white">TERJUAL</p>
         </div>
 
@@ -33,7 +33,7 @@
         </div>
 
         <div class="bg-indigo-600 aspect-[3/3.5] grid place-content-center text-center">
-            <p class="text-white text-6xl mb-4">12</p>
+            <p class="text-white md:text-6xl text-4xl mb-4">12</p>
             <p class="text-white">TEAM</p>
         </div>
     </div>

@@ -11,13 +11,10 @@
             Menyapa Lidah Anda</p>
 
 
-        <div class="grid md:grid-cols-3 gap-2 max-w-screen-xl ">
-            <x-ui.image-card src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg'
-                caption="Sepatu super" />
-            <x-ui.image-card src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg'
-                caption="Sepatu super" />
-            <x-ui.image-card src='https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg'
-                caption="Sepatu super" />
+        <div class="grid md:grid-cols-2 gap-2 max-w-screen-xl ">
+            <x-ui.image-card src="{{ env('app_url') }}/img/menu/penyek.jpg" caption="Penyek biasa" />
+            <x-ui.image-card src="{{ env('app_url') }}/img/menu/penyek2.jpg" caption="Penyek spesial" />
+            {{-- <x-ui.image-card src="{{ env('app_url') }}/img/menu/penyek3.jpg" caption="Penyek super" /> --}}
         </div>
 
         <x-ui.button>

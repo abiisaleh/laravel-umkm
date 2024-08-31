@@ -32,11 +32,11 @@ class Halaman extends Page implements HasForms
                     ->collapsible()
                     ->columns(2)
                     ->schema([
-                        Components\TextInput::make('judul')
+                        Components\TextInput::make('hero.judul')
                             ->required(),
-                        Components\TextInput::make('subjudul')
+                        Components\TextInput::make('hero.subjudul')
                             ->required(),
-                        Components\FileUpload::make('gambar')
+                        Components\FileUpload::make('hero.gambar')
                             ->columnSpanFull()
                             ->image()
                             ->multiple()
@@ -46,34 +46,34 @@ class Halaman extends Page implements HasForms
                     ->collapsible()
                     ->columns(2)
                     ->schema([
-                        Components\TextInput::make('judul')
+                        Components\TextInput::make('about.judul')
                             ->required(),
-                        Components\TextInput::make('subjudul')
+                        Components\TextInput::make('about.subjudul')
                             ->required(),
                         Components\Tabs::make('Products')
                             ->columnSpanFull()
                             ->schema([
                                 Components\Tabs\Tab::make('Tahun')
                                     ->schema([
-                                        Components\TextInput::make('jumlah')
+                                        Components\TextInput::make('about.tahun.jumlah')
                                             ->required(),
-                                        Components\FileUpload::make('gambar')
+                                        Components\FileUpload::make('about.tahun.gambar')
                                             ->image()
                                             ->required(),
                                     ]),
-                                Components\Tabs\Tab::make('Cabang')
+                                Components\Tabs\Tab::make('Terjual')
                                     ->schema([
-                                        Components\TextInput::make('jumlah')
+                                        Components\TextInput::make('about.terjual.jumlah')
                                             ->required(),
-                                        Components\FileUpload::make('gambar')
+                                        Components\FileUpload::make('about.terjual.gambar')
                                             ->image()
                                             ->required(),
                                     ]),
                                 Components\Tabs\Tab::make('Team')
                                     ->schema([
-                                        Components\TextInput::make('jumlah')
+                                        Components\TextInput::make('about.team.jumlah')
                                             ->required(),
-                                        Components\FileUpload::make('gambar')
+                                        Components\FileUpload::make('about.team.gambar')
                                             ->image()
                                             ->required(),
                                     ]),
@@ -83,11 +83,11 @@ class Halaman extends Page implements HasForms
                     ->collapsible()
                     ->columns(2)
                     ->schema([
-                        Components\TextInput::make('judul')
+                        Components\TextInput::make('product.judul')
                             ->required(),
-                        Components\TextInput::make('subjudul')
+                        Components\TextInput::make('product.subjudul')
                             ->required(),
-                        Components\FileUpload::make('katalog_produk')
+                        Components\FileUpload::make('product.katalog_produk')
                             ->columnSpanFull()
                             ->required(),
                         Components\Tabs::make('Products')
@@ -95,25 +95,25 @@ class Halaman extends Page implements HasForms
                             ->schema([
                                 Components\Tabs\Tab::make('Produk 1')
                                     ->schema([
-                                        Components\TextInput::make('nama')
+                                        Components\TextInput::make('product1.nama')
                                             ->required(),
-                                        Components\FileUpload::make('gambar')
+                                        Components\FileUpload::make('product1.gambar')
                                             ->image()
                                             ->required(),
                                     ]),
                                 Components\Tabs\Tab::make('Produk 2')
                                     ->schema([
-                                        Components\TextInput::make('nama')
+                                        Components\TextInput::make('product2.nama')
                                             ->required(),
-                                        Components\FileUpload::make('gambar')
+                                        Components\FileUpload::make('product2.gambar')
                                             ->image()
                                             ->required(),
                                     ]),
                                 Components\Tabs\Tab::make('Produk 3')
                                     ->schema([
-                                        Components\TextInput::make('nama')
+                                        Components\TextInput::make('product3.nama')
                                             ->required(),
-                                        Components\FileUpload::make('gambar')
+                                        Components\FileUpload::make('product3.gambar')
                                             ->image()
                                             ->required(),
                                     ]),

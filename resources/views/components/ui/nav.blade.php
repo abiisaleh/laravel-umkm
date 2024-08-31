@@ -27,7 +27,7 @@
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul
-                class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
+                class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
                 @foreach ($links as $link => $route)
                     <li>
                         <a href="{{ $route }}"
@@ -35,6 +35,8 @@
                             aria-current="page">{{ $link }}</a>
                     </li>
                 @endforeach
+                <a href="/admin"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2">Login</a>
             </ul>
         </div>
     </div>

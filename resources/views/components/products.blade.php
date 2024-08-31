@@ -7,9 +7,8 @@
         <hr class="border-b-1 w-32 border-gray-500">
 
         <p class="my-4 mb-6
-            text-lg font-normal text-gray-500 lg:text-xl text-center">Bubur Ayam Sehat dan
-            Bergizi,
-            Pilihan Tepat untuk Keluarga</p>
+            text-lg font-normal text-gray-500 lg:text-xl text-center">Penyek Khas Rumah, Siap
+            Menyapa Lidah Anda</p>
 
 
         <div class="grid md:grid-cols-3 gap-2 max-w-screen-xl ">

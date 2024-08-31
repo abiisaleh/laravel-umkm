@@ -1,11 +1,5 @@
 @php
-    $images = [
-        'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg',
-        'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg',
-        'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg',
-        'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg',
-        'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg',
-    ];
+    $images = ['img/penyek.jpg', 'img/penyek2.jpg', 'img/team penyek.jpg'];
 @endphp
 
 <section class="md:min-h-screen grid md:grid-cols-2 items-center mt-24 mb-12 md:my-0 px-4 md:px-0" id="home">
@@ -45,10 +39,11 @@
 
     <div class="sm:px-16 xl:px-48 order-1 md:order-2">
         <h1 class="mb-4 text-4xl font-extrabold !leading-tight tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
-            We invest in <span class="bg-indigo-600 !leading-none text-white px-1">the world’s</span> potential</h1>
+            <span class="bg-indigo-600 !leading-none text-white px-1">Peyek</span> Doa Umi Desa Pasir Datar Indah
+        </h1>
         <p class="mb-6
             text-lg font-normal text-gray-500 lg:text-xl">
-            {{ $subjudul ?? 'Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.' }}
+            {{ 'Dibuat dengan bahan-bahan alami pilihan dan proses pembuatan tradisional, rempeyek Ibu Umi menjadi oleh-oleh khas yang wajib dicoba. Tekstur renyah dan rasa gurihnya menjadi bukti kualitas rempeyek yang dihasilkan oleh tangan-tangan terampil masyarakat Desa Pasir Datar Indah.' }}
         </p>
     </div>
 </section>

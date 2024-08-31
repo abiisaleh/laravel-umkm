@@ -21,7 +21,7 @@
 <footer class="bg-gray-900 min-h-screen md:h-screen">
     {{-- Google Maps --}}
     <iframe class="w-full md:h-1/2 h-80"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.424830731581!2d106.87076773576088!3d-6.908573574290898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6837c32f387075%3A0x5c9d3a3e6dd4901c!2sGOR%20Kamojan%20Cibolang!5e0!3m2!1sid!2sid!4v1722389069457!5m2!1sid!2sid"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.377232107178!2d106.8981194!3d-6.8453002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6835a5f2c723c3%3A0x5c800931b8cda589!2sSDN%20KUBANG%20CARINGIN!5e0!3m2!1sid!2sid!4v1724924527385!5m2!1sid!2sid"
         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -47,7 +47,7 @@
                     <ul>
                         <li class=" cursor-pointer hover:text-gray-400">
                             @svg('bi-telephone-fill', 'inline-block me-2 mb-1')
-                            +62895-3611-87897
+                            62 852-8072-1422
                         </li>
                     </ul>
                 </x-ui.footer-link>
@@ -68,8 +68,8 @@
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
-                    class="hover:underline">Flowbite™</a>. All Rights Reserved.
+            <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2024 <a href="#"
+                    class="hover:underline">PKK SI Nusa Putra University</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
 
